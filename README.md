@@ -1,3 +1,3 @@
-Please check out my Website on the Akash network mainnet here:
+Updated on 31st December with new deployment
 
-https://ioaqei1u69ca306eh5qf21i37s.ingress.akashprovid.com/
+8an7kl5hq5eap6lqd13tq9c5b0.ingress.akashprovid.com
