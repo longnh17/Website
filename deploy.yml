@@ -6,14 +6,14 @@ services:
     image: ubuntu:latest
     
     env:
-      - "my_root_password=" # root password for ssh connection. 
+      - "my_root_password=kevin420" # root password for ssh connection. 
     
     command:
       - "bash"
       - "-c"
     args:
       # Link at the end of the next line needs to be changed to the location of your start.sh file
-      - 'apt-get update ; apt-get upgrade -y ; apt-get install -y  curl ;   curl -s https://github.com/longnh17/Website/blob/main/start.sh | bash ; 
+      - 'apt-get update ; apt-get upgrade -y ; apt-get install -y  curl ;   curl -s https://raw.githubusercontent.com/longnh17/Website/main/start.sh | bash ; 
       sleep infinity'   
     expose:
       - port: 80
